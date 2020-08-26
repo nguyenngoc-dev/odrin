@@ -1,8 +1,12 @@
-body{
+body{    
+    background-color:#f8f9fa;
     box-sizing: border-box;
-    font-family: arial,sans-serif;
-    margin:0;
+    font-family: Arial,sans-serif;
+    margin:0;     
+
 }
+
+
 
 .btn-1{background-color:pink;border:1px solid pink;color:white;
     padding:10px 15px;
@@ -15,3 +19,4 @@ body{
     font-family: 'Cinzel Decorative';
     font-style: normal;
   }
+ 

@@ -1,0 +1,23 @@
+.background{
+    background-image: url(http://subsolardesigns.com/odrin/wp-content/uploads/2017/08/bg_items3.png);
+       background-size: cover;
+       background-position: center;
+       padding: 100px 0 40px;
+       
+   }
+   h3{
+     font-family: 'Cinzel Decorative';
+     font-style: normal;  
+     font-size:46px;
+     text-transform:uppercase;
+   }
+   .column1{
+     margin-left:0px;
+   }
+   .column2{
+     transform:translatey( 50px);
+      
+     
+   }
+   
+   

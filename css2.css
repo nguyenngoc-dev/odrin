@@ -1,0 +1,19 @@
+
+   .page-thumbnail-item-title {
+       font-family: 'Cinzel Decorative';
+      font-style: normal;
+      text-align: center;
+      font-size: 13px;
+      letter-spacing: 4px;
+      padding: 30px;
+      margin: 0;
+      color:black;
+  }
+  .attachment-slpe_portrait_medium{
+    transition:transform 0.3s linear;
+    box-shadow:0px 4px 4px 0 rgba(0,0,0,0.2);
+    width:100%;
+  }
+  .row1:hover .attachment-slpe_portrait_medium {
+    transform:translatey(-5px);
+  }
