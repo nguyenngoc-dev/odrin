@@ -17,6 +17,35 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $(window).scroll(function(){
+          if($(window).scrollTop()>500)
+          {
+              $("#btn").fadeIn();
+          }
+          else
+          {
+              $("#btn").fadeOut();
+          }
+
+      })
+      $("#btn").click(function(){
+          
+          $("html,body").animate({scrollTop:0},"slow");
+
+      });
+  });
+</script>
+
+
+
+
+
+
+
 </head>
 <body>
    
@@ -89,78 +118,6 @@
             
           </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div class="container-fluid para-last ">
         <div class="wrap-last">
       <h3 class="special-title special-heading-letter text-black"><span style="font-size:60px;color:#faab9f;">R</span>EADDY TO SELL YOUR BOOKS?</h3>
@@ -180,6 +137,9 @@
 
 
     
-    
+      <button id="btn" style="position:fixed;bottom: 0;right:0;display:none">
+        <i class="fas fa-angle-up" style="font-size: 40px;">
+        </i></button>
+
 </body>
 </html>
